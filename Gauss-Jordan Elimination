@@ -1,0 +1,15 @@
+# Gauss-Jordan Elimination is an algorithm that can be used to solve systems of linear equations and to find the inverse of any invertible matrix. It relies upon three elementary row operations one can use on a matrix:
+
+Swap the positions of two of the rows
+Multiply one of the rows by a nonzero scalar.
+Add or subtract the scalar multiple of one row to another row.
+
+# Steps for Gauss-Jordan Elimination
+To perform Gauss-Jordan Elimination:
+
+Swap the rows so that all rows with all zero entries are on the bottom
+Swap the rows so that the row with the largest, leftmost nonzero entry is on top.
+Multiply the top row by a scalar so that top row's leading entry becomes 1.
+Add/subtract multiples of the top row to the other rows so that all other entries in the column containing the top row's leading entry are all zero.
+Repeat steps 2-4 for the next leftmost nonzero entry until all the leading entries are 1.
+Swap the rows so that the leading entry of each nonzero row is to the right of the leading entry of the row above it.
